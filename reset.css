@@ -1,0 +1,195 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0
+}
+
+main {
+  display: block
+}
+
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+img,
+ul,
+li {
+  color: inherit;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  outline: 0
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: normal
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  -webkit-text-decoration-skip: objects
+}
+
+a:focus,
+a:active,
+a:hover {
+  text-decoration: none
+}
+
+a,
+button,
+input,
+textarea {
+  border: 0;
+  padding: 0;
+  font-size: inherit
+}
+
+a:focus,
+a:active,
+a:hover,
+button:focus,
+button:active,
+button:hover,
+input:focus,
+input:active,
+input:hover,
+textarea:focus,
+textarea:active,
+textarea:hover {
+  outline: none
+}
+
+select,
+button,
+input {
+  font-family: inherit;
+  overflow: visible;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0
+}
+
+select::-ms-expand,
+button::-ms-expand,
+input::-ms-expand {
+  display: none
+}
+
+select:hover,
+button:hover,
+input:hover {
+  cursor: pointer
+}
+
+select:focus,
+button:focus,
+input:focus {
+  outline: none
+}
+
+input:hover {
+  cursor: text
+}
+
+input[type="submit"]:hover {
+  cursor: pointer
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0
+}
+
+input[type=number] {
+  -moz-appearance: textfield
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0
+}
+
+audio,
+video,
+canvas {
+  display: inline-block
+}
+
+button,
+input,
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none
+}
+
+select:invalid {
+  -webkit-box-shadow: none;
+  box-shadow: none
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration {
+  display: none
+}
+
+input::-ms-clear {
+  display: none
+}
+
+input:required {
+  -webkit-box-shadow: none;
+  box-shadow: none
+}
+
+input,
+textarea,
+button,
+select,
+a,
+label {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+select:-internal-autofill-selected,
+select:-internal-autofill-selected:hover,
+select:-internal-autofill-selected:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s
+}

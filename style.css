@@ -1,0 +1,147 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #7A27B0;
+}
+
+
+.quiz{
+  text-align: center;
+  padding: 80px 18px;
+  min-height: 100vh;
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quiz__header {
+  margin-bottom: 30px;
+  padding: 20px 60px 30px;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.quiz__title {
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.quiz__title--marginb {
+  margin-bottom: 10px;
+}
+.quiz__header__content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quiz__body, .quiz__body2 {
+  background-color: white;
+  border-radius: 7px;
+  padding: 20px;
+}
+
+.quiz__body__header {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.quiz__body__title {
+  font-size: 15px;
+  font-weight: 600;
+  order: 1;
+}
+
+.quiz__body__category {
+  margin-bottom: 5px;
+}
+
+.quiz__body__subcategory {
+  border: 1px solid #2DD36F;
+  border-radius: 10px;
+  background-color: #2DD36F;
+  padding:2px 5px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.quiz__button {
+  display: block;
+  padding: 10px 0;
+  border-radius: 7px;
+  background-color: #F4F5F8;
+  font-weight: 600;
+  user-select: none;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.2s linear, color 0.2s linear;
+}
+.quiz__wrapper-result__button{
+  background-color: #F4F5F8;
+}
+
+.quiz__body__ibutton:active:not([disabled]) {
+  position: relative;
+  transform: translateY(2px);
+}
+
+.quiz__body__ibutton--correct {
+  background-color: #2DD36F;
+  color: white;
+}
+
+.quiz__body__ibutton--fail {
+  background-color: #ED5367;
+  color: white;
+}
+
+.quiz__body__item {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.quiz__body__iinput {
+  position: absolute;
+  top: -20000px;
+  left: 0;
+}
+
+.quiz__body__item:last-child {
+  margin-bottom: 0;
+}
+
+.quiz__wrapper-result__title {
+  font-weight: bold;
+  margin-bottom: 17px;
+}
+
+.quiz__wrapper-result__img{
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+.quiz__wrapper-result__subtitle{
+  margin-bottom: 6px;
+  text-transform: capitalize;
+}
+
+.quiz__wrapper-result__score {
+  font-weight: bold;
+  font-size: 30px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.quiz__wrapper-result__button{
+  background-color: #2DD36F;
+  color:white;
+  text-transform:capitalize;
+}
+
+.u-none {
+  display: none;
+}

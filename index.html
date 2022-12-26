@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+  <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="quiz">
+    <div class="quiz__content">
+
+      <div class="quiz__header">
+        <span class="quiz__title quiz__title--marginb">code|easy</span>
+      <div class="quiz__header__content">
+        <div class="quiz__header__data">
+          <span class="quiz__title">question</span>
+          <span class="quiz__subtitle quiz__count-question">1/10</span>
+        </div>
+        <div class="quiz__header__data">
+          <span class="quiz__title">score</span>
+          <span class="quiz__subtitle quiz__count-score">0</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="quiz__body">
+      <div class="quiz__body__header">
+        <h2 class="quiz__body__title"></h2>
+        <span class="quiz__title quiz__body__category">code</span>
+        <span class="quiz__body__subcategory">html</span>
+      </div>
+
+      <ul class="quiz__body__list"></ul>
+    </div>
+  </div>
+
+    <div class="quiz__body2 u-none">
+      <span class="quiz__title">congratulations</span>
+      <h2 class="quiz__wrapper-result__title">Quiz Complete!</h2>
+      <img class="quiz__wrapper-result__img" src="/images/pngwing.com.png" alt="">
+        <h3 class="quiz__wrapper-result__subtitle">you score</h3>
+        <span class="quiz__wrapper-result__score">3/10</span>
+      <button onclick="restart()" class="quiz__wrapper-result__button quiz__button">play again !</button>
+    </div>
+
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
